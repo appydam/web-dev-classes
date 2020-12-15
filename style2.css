@@ -1,0 +1,15 @@
+#box{
+    width:200px;
+    height:200px;
+    border-radius: 200px;
+    background-image:linear-gradient(rgb(119, 241, 119),rgb(243, 87, 87));
+    /* font-display: "center"; */
+    /* border: 10px; */
+    /* border-width: 10px black; */
+    padding:10px;
+    margin-left: 200px;
+    
+
+
+}
+

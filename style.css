@@ -1,0 +1,64 @@
+/* h1{
+    background-color: blue;
+    text-align: center;
+}
+
+/* id  -  #
+
+class  -  . */
+
+/* #myid1{
+    background-color:aqua;
+} */ 
+
+
+#div11{
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(rgb(121, 121, 235),rgb(170, 92, 170));
+    background-image: radial-gradient(yellow,rgb(60, 243, 136));
+}
+
+html{
+    color:rgba(15, 0, 3, 0.493);
+    /* background-color:aqua; */
+}
+/* 
+body{
+    background-color:blue;
+} */
+
+#p1{
+    color:brown;
+    font-size:30px;
+}
+
+#p2{
+    color:yellow;
+    font-size:20px;
+}
+
+.c1{
+    color:rgb(116, 212, 116);
+    
+}
+
+input[type="text"],input[type="password"]{
+    border-color:aqua;
+    border-radius: 20px;   
+    border-width: 10px;
+    /* roundness */
+}
+
+/* placeholder{
+    text-align: center;
+} */
+
+
+
+
+
+
+
+
+
