@@ -1,0 +1,41 @@
+div{
+    width:150px;
+    height:150px;
+    margin:20px;
+    background-color:aqua;
+
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+#div1{
+    transform:scale(2); 
+    border:1px solid black;
+}
+#div2{
+    transform:scale(0.5);
+}
+
+#div3{
+    transform: rotate(45deg) translateX(90px);
+}
+
+#div4{
+    transform:rotateX(60deg);
+
+}
+
+#div5{
+    transform:rotateY(60deg);
+}
+
+#div6{
+    transform:skew(40deg);
+}
+
+#div2{
+    transform: translate(80px) rotateY(60deg);
+    transition-duration: 3s;
+    transition-delay: 2s;    
+
+}

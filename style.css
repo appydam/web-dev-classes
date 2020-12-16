@@ -1,0 +1,17 @@
+table{
+    border-collapse: collapse;
+}
+
+.c1,.c2{
+    color: rgb(0, 0, 0);
+}
+
+.c3:hover,.c4:hover{
+    border: 1px solid black;
+    background-color:aqua;
+}
+
+.c1:hover,.c2:hover{
+    border: 1px solid black;
+    background-color:rgb(243, 94, 35);
+}
