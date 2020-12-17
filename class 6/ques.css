@@ -1,0 +1,24 @@
+#box{
+    margin: 50px;
+    padding: 10px;
+    height:100px;
+    width: 300px;
+    background-color:rgb(132, 41, 206);
+    color: white;
+    font-size: 25pt;
+    transition:0.2s;
+    box-shadow: 5px 5px 5px black;
+}
+
+#box:hover{
+    transform: translate(-20px,-20px);
+    box-shadow: 15px 15px 8px black;
+    transition: 0.5s;
+
+}
+
+#box:active{
+    transform: translate(5px,5px);
+    box-shadow: 2px 2px 5px black;
+    transition:0.2s;
+}

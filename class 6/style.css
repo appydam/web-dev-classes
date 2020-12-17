@@ -1,0 +1,43 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-image:linear-gradient(rgb(166, 166, 214),rgb(233, 255, 134));
+    /* background-color:aqua; */
+    margin: 10px;
+    transition: 5s;
+    border-radius: 50px 20px 2px 100px;
+
+}
+
+#div1:hover{
+    background-image:linear-gradient(yellow,red);
+    /* background-color:brown; */
+}
+
+#div4:hover{
+    transform:scale(2);
+}
+#div5:hover{
+    border:10px solid black;
+    width:300px;
+    transform:scale(2);
+    transition: width 2s border 4s;
+}
+
+#div3{
+    margin-left: 300px;
+}
+
+#div3:hover{
+    border-radius: 0px 0px 200px 10px;
+    border:5px solid black;
+    transform:scale(3);
+}
+
+#div2{
+    box-shadow: 38px 36px 16px -9px rgba(0,0,0,0.55);
+}
+
+
+
+
