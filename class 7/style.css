@@ -1,0 +1,69 @@
+body{
+    margin-top:300px;
+    margin-left:400px;
+    margin-right:100px;
+}
+
+.scene{
+    /* height:400px; */
+    perspective: 700px;
+    perspective-origin: 40px 80px;
+}
+
+.cube{
+    transform-style: preserve-3d;
+}
+
+
+.cube div{
+    position: absolute;
+    width: 200px;
+    height:200px;
+    opacity:0.7;
+    color:rgb(43, 39, 39);
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.front{
+    background-color:antiquewhite;
+    transform:rotate(0deg);
+    transform: translateZ(100px);
+
+}
+
+.back{
+    background-color:rgb(175, 119, 228);
+    transform: translateZ(-100px);
+}
+/* left */
+.top{
+    transform:rotateY(90deg) translateZ(-100px);
+    background-color:rgb(0, 255, 13);
+}
+/* right */
+.bottom{
+    transform:rotateY(90deg) translateZ(100px);
+    background-color:rgb(238, 132, 94);
+}
+
+.left{
+    transform:rotateX(90deg) translateZ(100px);
+    background-color: rgb(96, 96, 230);
+}
+.right{
+    transform:rotateX(90deg) translateZ(-100px);
+
+    /* transform:translateY(-100px) rotateX(90deg); */
+    background-color:rgb(248, 248, 88);
+}
+
+.cube:hover{
+    transform:translateX(-50px) rotate(20deg);
+    transition:2s;
+}
+.cube:active{
+    transform:rotate(30deg);
+    transition:2s;
+}
