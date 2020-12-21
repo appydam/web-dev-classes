@@ -1,0 +1,29 @@
+div{
+    height: 60px;
+    width: 60px;
+    margin:20px;
+    background-color:brown;
+    border:3px solid black;
+}
+
+#div7{
+    position:fixed;
+    left:30px
+}
+
+#div5{
+    position: relative;
+    left:30px;
+}
+
+#div3{
+    position:sticky;
+    top:10px;
+    background-color:rgb(233, 60, 204);
+}
+
+#div4{
+    position:absolute;
+    right:30px;
+    bottom:200px;
+}
