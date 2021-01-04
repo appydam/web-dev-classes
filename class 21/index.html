@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- CSS lib -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- JS libs -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- about us -->
+
+<section>
+
+      <div class="container-fluid">
+        <h1 class = "text-center text-capitalize pt-5">About Us</h1>
+        <hr class="w-25 mx-auto pt-5">
+
+        <div class="row mb-5">
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/background1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/background3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/background4.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-12">
+            <h1>Products</h1>
+            <br>
+            
+            <p> roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+              The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Secti</p>
+
+              <button type="button" class="btn btn-primary">contact us</button>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+<!-- service part -->
+    
+      <section>
+
+          <div class="container-fluid">
+            <h1 class = "text-center text-capitalize pt-5">Services</h1>
+            <hr class="w-25 mx-auto pt-5">
+
+
+            <div class="row text-center mb-5">
+
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" style="width: 18rem;">
+                  <img src="images/background5.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">C++</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Register</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" style="width: 18rem;">
+                  <img src="images/background5.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Machine learning</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Register</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" style="width: 18rem;">
+                  <img src="images/background5.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">AR/VR</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Register</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+              
+          </div>
+        
+        
+      </section>
+
+
+      <!-- contact us -->
+
+      <section class="bg-primary">
+
+        <article class="py-5 text-center text-white">
+
+          <div class="display-4 ">789456798456</div>
+          <p>if you want the best service, call now ! </p>
+          <button class="btn btn-warning" id="abc"> Contact Now</button>
+        </article>
+
+      </section>
+
+      <!-- gallary -->
+
+      <div class="container-fluid">
+        <h1 class = "text-center text-capitalize pt-5">Gallary</h1>
+        <hr class="w-25 mx-auto pt-5">
+
+        <div class="row">
+          <div class="col-lg-4 col-mg-2 col-12 mb-4">
+            <img src="images/background5.png" class="img-fluid">
+          </div>
+          <div class="col-lg-4 col-mg-2 col-12 mb-4">
+            <img src="images/background5.png" class="img-fluid">
+          </div>
+          <div class="col-lg-4 col-mg-2 col-12 mb-4">
+            <img src="images/background5.png" class="img-fluid">
+          </div>
+          <div class="col-lg-4 col-mg-2 col-12 mb-4">
+            <img src="images/background5.png" class="img-fluid">
+          </div>
+          <div class="col-lg-4 col-mg-2 col-12 mb-4">
+            <img src="images/background5.png" class="img-fluid">
+          </div>
+          <div class="col-lg-4 col-mg-2 col-12 mb-4">
+            <img src="images/background5.png" class="img-fluid">
+          </div>
+          
+
+        </div>
+
+      </div>
+
+      <!-- feedback form -->
+
+      <section>
+
+        <div class="container-fluid">
+          <h1 class = "text-center text-capitalize pt-5">Feedback</h1>
+          <hr class="w-25 mx-auto pt-5">
+          <form class="row g-3">
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefaultUsername" class="form-label">Username</label>
+              <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefault03" class="form-label">City</label>
+              <input type="text" class="form-control" id="validationDefault03" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault04" class="form-label">State</label>
+              <select class="form-select" id="validationDefault04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault05" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  Agree to terms and conditions
+                </label>
+              </div>
+            </div>
+            <div class="col-12 ">
+              <button class="btn btn-primary " type="submit">Submit form</button>
+
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>    
+
+
+
+
+</body>
+</html>
