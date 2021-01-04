@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+
+    <% include partials/nav %>
+
+    <h1>this is home page</h1>
+
+    <form id="myForm">
+        <input type="text" name="item">
+        <button type="submit" class="waves-effect waves-light btn-large">Add to Wish List</button>
+        <!-- <a class="waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>button</a> -->
+    </form>
+
+    <ul>
+        <!-- <li><%= wish[0] %></li>
+        <li><%= wish[1] %></li>
+        <li><%= wish[2] %></li> -->
+
+
+
+        <!-- data print krne ke liye '=' print krte hai -->
+        <%   wish.forEach(item =>{     %> 
+            <li onclick = "deleteItem(this)"><%= item  %></li>      
+       <% })   %>
+    </ul>
+
+
+
+    <script src="/script.js">  </script>
+    
+   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
